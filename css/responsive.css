@@ -168,11 +168,11 @@
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-.logo {
+@media (max-width: 600px) {
+  
+  .logo {
      font-size: 32px;
   }
-
-@media (max-width: 600px) {
   /* Navbar */
   nav {
     padding: 20px 15px;
