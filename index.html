@@ -1,123 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>It's Lowell Kitchen!</title>
-        <meta name="description" content="Computer whisperer" />
-        <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VNDHP05Q12"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'G-VNDHP05Q12');
-        </script>
-        <style>
-            @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-            html {
-                height: 100%;
-            }
+  <title>It's Lowell Kitchen!</title>
+  <meta content="Lowell Kitchen" name="keywords">
+  <meta content="Lowell Kitchen: Computer whisperer" name="description">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@lowellkitchen" />
+  <meta name="twitter:title" content="It's Lowell Kitchen!" />
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/1129036" />
 
-            body{
-                background-color: #eee;
-                font-family: "Roboto Slab", helvetica;
-                height: 100%;
-            }
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
 
-            #container {
-                position: relative;
-                background-color: #fff;
-                width: 65%;
-                height: 250px;
-                text-align: center;
-                margin: 15px auto 0 auto;
-                border-radius: 5px 0 5px 5px;
-                box-shadow: -2px 2px 1px rgba(0,0,0,0.3), -2px 2px 1px rgba(0,0,0,0.2);
-                padding: 1em 1.5em;
-                overflow: hidden;
-            }
+<body>
 
-            #social{
-                margin: 5px auto;
-                text-align: center;
-                width: 100%;
-            }
-            #social > div {
-                display: inline-block; 
-                padding: 10px;
-            }
-            h1 {
-                margin-bottom: 2px;
-                color: #000;
-                font-size: 65px;
-                border-bottom: #E3E3E3 solid 1px;
-                width: 90%;
-                margin: 50px auto 0px auto;
-                font-weight: normal;
-            }
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
 
-            h2 {
-                margin-top: 2px;
-                color: #bbb;
-                font-size: 22px;
-                font-weight: normal;
-            }
+        <div class="logo"><a href="#">lowell.kitchen</a></div>
 
-            #container:before {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: -1px;
-                border-width: 0 32px 32px 0;
-                border-style: solid;
-                border-color: #eee #eee #bbb #bbb;
-                background: #bbb;
-                -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-                -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-                box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-                /* Firefox 3.0 damage limitation */
-                display: block; width: 0;
-            }
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
-            #container.rounded {
-                -moz-border-radius: 5px 0 5px 5px;
-                border-radius: 5px 0 5px 5px;
-            }
+        <ul class="nav-menu list-unstyled list-social">
+          <li><a href="https://www.twitter.com/lowellkitchen" target="_blank"><img src="images/twitter.png" width="32" style="vertical-align: middle;" alt="@lowellkitchen"></a></li>
+          <li><a href="https://www.linkedin.com/pub/lowell-kitchen/6/816/874" target="_blank"><img src="images/linkedin.png" width="32" alt="View Lowell Kitchen's LinkedIn profile" style="vertical-align:middle;"></a></li>
+          <li><a href="https://github.com/lowellkitchen" target="_blank"><img src="images/github.png" width="32" style="vertical-align:middle;" alt="View Lowell Kitchen's GitHub profile"></a></li>
+          <li><a href="https://www.imdb.com/name/nm12479924" target="_blank"><img src="images/imdb.png" width="32" style="vertical-align:middle;" alt="View Lowell Kitchen's IMDb profile"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="header" class="home">
 
-            #container.rounded:before {
-                border-width: 16px;
-                border-color: #eee #eee transparent transparent;
-                -moz-border-radius: 0 0 0 5px;
-                border-radius: 0 0 0 5px;
-            }
-            img { border: 0; }
-         </style>
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@lowellkitchen" />
-        <meta name="twitter:title" content="It's Lowell Kitchen!" />
-        <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/1129036" />
-        
-    </head>
+    <div class="container">
+      <div class="header-content">
+        <h1><span class="typed"></span></h1>
+        <p>rockport, massachusetts</p>
+      </div>
+    </div>
+  </div>
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
 
-    <body>
-        <div id="container" class="rounded">
-            <h1>Lowell Kitchen</h1>
-            <div id="social">
-                <div>
-                    <a href="https://www.twitter.com/lowellkitchen"><img src="http://lowell.kitchen/iconfinder_social_media_applications_6-twitter_4102580.png" width="32" style="vertical-align: middle;" alt="@lowellkitchen"></a>
-                </div>
-                <div>
-                    <a href="https://www.linkedin.com/pub/lowell-kitchen/6/816/874"><img src="http://lowell.kitchen/iconfinder_Social-media_LinkedIn_4362961.png" width="32" alt="View Lowell Kitchen's LinkedIn profile" style="vertical-align:middle;"></a>
-                </div>
-                <div>
-                    <a href="https://github.com/lowellkitchen"><img src="https://lowell.kitchen/iconfinder_Group_4747499.png" width="32" style="vertical-align:middle;" alt="View Lowell Kitchen's GitHub profile"></a>
-                </div>
-                <div>
-                    <a href="https://www.imdb.com/name/nm12479924"><img src="https://lowell.kitchen/imdb-icon.png" width="32" style="vertical-align:middle;" alt="View Lowell Kitchen's IMDb profile"></a>
-                </div>
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
             </div>
+          </div>
         </div>
-    </body>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">I'm a software engineering manager based in beautiful Rockport Massachusetts</p>
+            <p class="separator">I've spent most of my career helping design and develop successful SaaS products that have powered the digital operations of major political campaigns and non-profits. This includes being one of the early engineers that helped develop and support the BSD Tools platform which helped raise billions of dollars for progressive political campaigns and non-profits around the world.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+        <ul class="list-unstyled">
+          <li><a href="https://www.twitter.com/lowellkitchen" target="_blank"><img src="images/twitter.png" width="32" style="vertical-align: middle;" alt="@lowellkitchen"></a></li>
+          <li><a href="https://www.linkedin.com/pub/lowell-kitchen/6/816/874" target="_blank"><img src="images/linkedin.png" width="32" alt="View Lowell Kitchen's LinkedIn profile" style="vertical-align:middle;"></a></li>
+          <li><a href="https://github.com/lowellkitchen" target="_blank"><img src="images/github.png" width="32" style="vertical-align:middle;" alt="View Lowell Kitchen's GitHub profile"></a></li>
+          <li><a href="https://www.imdb.com/name/nm12479924" target="_blank"><img src="images/imdb.png" width="32" style="vertical-align:middle;" alt="View Lowell Kitchen's IMDb profile"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="js/main.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VNDHP05Q12"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VNDHP05Q12');
+  </script>
+</body>
+
 </html>
