@@ -19,6 +19,10 @@
  */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  
+  .logo {
+     font-size: 55px;
+  }
   /* Navbar */
   nav {
     padding: 10px 15px;
@@ -91,6 +95,10 @@
 
 @media (max-width: 767px) {
   /* Navbar */
+  
+  .logo {
+     font-size: 55px;
+  }
   nav {
     padding: 20px 15px;
   }
@@ -159,6 +167,10 @@
 /** Width between 600px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
+
+.logo {
+     font-size: 32px;
+  }
 
 @media (max-width: 600px) {
   /* Navbar */
