@@ -65,7 +65,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["It's Lowell Kitchen!", "Hello :)", "Computer guy...", "Traveler...", "Occasional actor...", "Amatuer chef."],
+      strings: ["Hello :)", "It's Lowell Kitchen!", "Computer guy...", "Traveler...", "Occasional actor...", "Amatuer chef."],
       typeSpeed: 100,
       loop: true,
     });
