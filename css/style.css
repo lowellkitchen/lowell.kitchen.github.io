@@ -237,15 +237,15 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center 0px / cover;
-  height: 125vh;
+  background: url("../images/home-bg.jpg") repeat scroll center -70px / cover;
+  height: 145vh;
   width: 100%;
   border-bottom: 1px solid #666;
 }
 
 
 #header .header-content {
-  height: 100vh;
+  height: 70vh;
   text-align: left;
   width: 100%;
   display: flex;
