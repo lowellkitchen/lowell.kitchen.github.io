@@ -237,8 +237,8 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center -70px / cover;
-  height: 145vh;
+  background: url("../images/home-bg.jpg") repeat scroll center -40px / cover;
+  height: 115vh;
   width: 100%;
   border-bottom: 1px solid #666;
 }
