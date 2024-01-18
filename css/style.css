@@ -380,7 +380,7 @@ nav ul li a {
   font-size: 13px;
 }
 
-@media (min-width:480px) {
+@media (min-width:320px) {
 #header {
     background: url("../images/home-bg-smaller.jpeg") no-repeat scroll center 0px / cover;
     height: 100vh;
