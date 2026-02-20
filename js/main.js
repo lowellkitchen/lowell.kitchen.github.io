@@ -65,8 +65,9 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hello :)", "It's Lowell Kitchen!", "Software engineer...", "Amateur chef...", "Lighthouse keeper...", "Occasional actor."],
-      typeSpeed: 100,
+      strings: ["Lowell Kitchen", "Software Engineer", "Product Leader", "Political Tech Builder", "Amateur Chef", "Rockport Local"],
+      typeSpeed: 70,
+      backSpeed: 40,
       loop: true,
     });
   });
@@ -141,3 +142,21 @@ $(window).load(function(){
   });
 
 })
+
+// ========================================================================= //
+//  Scroll fade-in animation
+// ========================================================================= //
+var fadeEls = document.querySelectorAll('.fade-in');
+if ('IntersectionObserver' in window) {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  fadeEls.forEach(function(el) { observer.observe(el); });
+} else {
+  fadeEls.forEach(function(el) { el.classList.add('visible'); });
+}
